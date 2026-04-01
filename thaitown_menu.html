@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;確認你不是機器人&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>function startRickRoll() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 模擬驗證跑條</p>
+<p class="p1"><span class="Apple-converted-space">            </span>let progress = document.getElementById('progress');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>let width = 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>let interval = setInterval(() =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>if (width &gt;= 100) {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>clearInterval(interval);</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");</p>
+<p class="p1"><span class="Apple-converted-space">                </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>width += 10;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>progress.style.width = width + '%';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}, 200);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>body { font-family: sans-serif; text-align: center; padding-top: 50px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.box { border: 1px solid #ccc; padding: 20px; display: inline-block; border-radius: 8px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.bar { width: 200px; height: 10px; background: #eee; margin: 10px auto; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>#progress { width: 0%; height: 100%; background: #007bff; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body onload="startRickRoll()"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="box"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h3&gt;正在驗證您的瀏覽環境...&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="bar"&gt;&lt;div id="progress"&gt;&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;請稍候，驗證完成後將導向目標檔案。&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
